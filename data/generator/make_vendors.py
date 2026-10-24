@@ -29,5 +29,3 @@ vendors = pd.DataFrame({
 # Step 5: save
 vendors.to_csv("data/vendors.csv", index=False)
 print(vendors.head())
-
-print()
